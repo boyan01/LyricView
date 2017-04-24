@@ -2,7 +2,7 @@
 a view used to display lyric for android
 
 Renderings show:
-[image](!/image/Animation.gif)
+[image](/image/Animation.gif)
 
 
 ##how to use it
@@ -22,4 +22,4 @@ lyricView.setLyric(lyricFilePath);
 ```
 ##Copyright
 MIT License Copyright (c) 2017 YangBin.
-See [LICENSE]("./LICENSE.txt") for details
+See [LICENSE](LICENSE.txt) for details
