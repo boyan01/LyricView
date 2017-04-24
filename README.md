@@ -5,7 +5,7 @@ Renderings show:
 [image](/image/Animation.gif)
 
 
-#how to use it
+## how to use it
 xml
 ```
     <com.yangbin.lyricview.widget.LyricView
@@ -20,6 +20,6 @@ and by java code
 ```
 lyricView.setLyric(lyricFilePath);
 ```
-#Copyright
+## Copyright
 MIT License Copyright (c) 2017 YangBin.
 See [LICENSE](LICENSE.txt) for details
