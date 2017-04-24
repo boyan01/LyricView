@@ -8,7 +8,7 @@
     android:padding="16dp"
     tools:context="com.yangbin.lyricviewdemo.MainActivity">
 
-    <com.yangbin.lyricview.widght.LyricView
+    <com.yangbin.lyricview.widget.LyricView
         android:id="@+id/view_lyric"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

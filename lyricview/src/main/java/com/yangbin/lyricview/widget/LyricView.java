@@ -1,8 +1,9 @@
-package com.yangbin.lyricview.widght;
+package com.yangbin.lyricview.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Color;
+import android.os.Build;
 import android.support.annotation.AttrRes;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -178,7 +179,11 @@ public class LyricView extends FrameLayout {
 //                        lyricsListAdapter.notifyItemChanged(position);
 
                 int offset = (int) ((listLyric.getHeight()) / (2 * 1.4));
-                listLyric.smoothScrollToPositionFromTop(position, offset);
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
+                    listLyric.smoothScrollToPositionFromTop(position, offset);
+                } else {
+                    listLyric.smoothScrollToPosition(position);
+                }
             }
         }
     }

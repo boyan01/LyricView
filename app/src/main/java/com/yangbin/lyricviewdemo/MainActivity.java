@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.SeekBar;
 
-import com.yangbin.lyricview.widght.LyricView;
+import com.yangbin.lyricview.widget.LyricView;
 
 public class MainActivity extends AppCompatActivity {
 
